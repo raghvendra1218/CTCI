@@ -12,8 +12,12 @@ public class Main {
 //        CheckPermutation cp = new CheckPermutation();
 //        System.out.println("Output: "+ cp.isPermutation(str1,str2));
         /** URLify String */
-        char[] chars = {'M','r',' ','J','o','h','n',' ','S','m','i','t','h',' ',' ',' ',' '};
-        URLify url = new URLify();
-        url.urlify(chars,13);
+//        char[] chars = {'M','r',' ','J','o','h','n',' ','S','m','i','t','h',' ',' ',' ',' '};
+//        URLify url = new URLify();
+//        url.urlify(chars,13);
+        /** Palindrome Permutation */
+        String str = "tact Coaa";
+        PalindromePermutation pp = new PalindromePermutation();
+        System.out.println("Output: "+ pp.canFormPalindrome(str));
     }
 }
