@@ -1,4 +1,4 @@
-package com.raghvendra.ctci;
+package com.raghvendra.ctci.ArraysAndStrings;
 
 import java.util.Arrays;
 

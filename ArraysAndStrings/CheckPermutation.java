@@ -1,4 +1,4 @@
-package com.raghvendra.ctci;
+package com.raghvendra.ctci.ArraysAndStrings;
 
 public class CheckPermutation {
     public boolean isPermutation(String s1, String s2){

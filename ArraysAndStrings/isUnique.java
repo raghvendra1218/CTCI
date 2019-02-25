@@ -1,4 +1,4 @@
-package com.raghvendra.ctci;
+package com.raghvendra.ctci.ArraysAndStrings;
 
 public class isUnique {
     public boolean isUnique(String s){

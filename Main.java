@@ -1,5 +1,8 @@
 package com.raghvendra.ctci;
 
+import com.raghvendra.ctci.ArraysAndStrings.OneAway;
+import com.raghvendra.ctci.ArraysAndStrings.PalindromePermutation;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -19,5 +22,9 @@ public class Main {
         String str = "tact Coaa";
         PalindromePermutation pp = new PalindromePermutation();
         System.out.println("Output: "+ pp.canFormPalindrome(str));
+        /** One Away */
+//        String str1 = "Pale", str2 = "Pal";
+//        OneAway oa = new OneAway();
+//        System.out.println("Output: "+oa.checkOneAway(str1,str2));
     }
 }
