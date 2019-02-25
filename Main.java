@@ -2,6 +2,7 @@ package com.raghvendra.ctci;
 
 import com.raghvendra.ctci.ArraysAndStrings.OneAway;
 import com.raghvendra.ctci.ArraysAndStrings.PalindromePermutation;
+import com.raghvendra.ctci.ArraysAndStrings.StringCompression;
 
 public class Main {
 
@@ -19,12 +20,16 @@ public class Main {
 //        URLify url = new URLify();
 //        url.urlify(chars,13);
         /** Palindrome Permutation */
-        String str = "tact Coaa";
-        PalindromePermutation pp = new PalindromePermutation();
-        System.out.println("Output: "+ pp.canFormPalindrome(str));
+//        String str = "tact Coaa";
+//        PalindromePermutation pp = new PalindromePermutation();
+//        System.out.println("Output: "+ pp.canFormPalindrome(str));
         /** One Away */
 //        String str1 = "Pale", str2 = "Pal";
 //        OneAway oa = new OneAway();
 //        System.out.println("Output: "+oa.checkOneAway(str1,str2));
+        /** String Compression */
+        String str = "";
+        StringCompression sc = new StringCompression();
+        sc.compress(str);
     }
 }
