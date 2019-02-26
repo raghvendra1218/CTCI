@@ -58,10 +58,10 @@ public class Main {
         fifth.next = sixth;
         sixth.next = seventh;
         seventh.next = eight;
-        eight.next = third;
-        System.out.print("List 0: ");
+//        eight.next = third;
+//        System.out.print("List 0: ");
 //        list.printList();
-        System.out.println();
+//        System.out.println();
 
         /** Remove Duplicates */
 //        RemoveDups rd = new RemoveDups();
@@ -101,10 +101,31 @@ public class Main {
 //        System.out.println();
 ////        SumLists sl = new SumLists();
         /** Loop Detection */
-        LoopDetection ld = new LoopDetection();
-        System.out.println("Node: " + ld.detectLoop(LinkedList.head).data);
+//        LoopDetection ld = new LoopDetection();
+//        System.out.println("Node: " + ld.detectLoop(LinkedList.head).data);
 
+        /** Intersection of Linked List*/
+//        LinkedList list1 = new LinkedList();
+//        list1.head = new LinkedList.Node(5);
+//        LinkedList.Node second1 = new LinkedList.Node(7);
+//        LinkedList.Node third1 = new LinkedList.Node(4);
+//        LinkedList.Node fourth1 = new LinkedList.Node(6);
+//        LinkedList.Node fifth1 = new LinkedList.Node(1);
+//        LinkedList.Node sixth1 = new LinkedList.Node(8);
+//        LinkedList.Node seventh1 = new LinkedList.Node(7);
+//        LinkedList.Node eight1 = new LinkedList.Node(0);
+//        list1.head.next = second1;
+//        second1.next = third1;
+//        third1.next = fourth1;
+//        fourth1.next = fifth;
+////        fourth1.next = fifth1;
+////        fifth1.next = sixth1;
+////        sixth1.next = seventh1;
+////        seventh1.next = eight1;
+//        IntersectionOfLinkedList il = new IntersectionOfLinkedList();
+//        System.out.println("Node of Intersection: " + il.intersectionPoint(list1.head, list.head).data);
 
+        /**  */
     }
 
 }

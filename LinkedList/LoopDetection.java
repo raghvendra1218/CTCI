@@ -19,6 +19,7 @@ public class LoopDetection {
                 }
             }
         }
+        System.out.println("No Cycle found");
         return null;
     }
 }

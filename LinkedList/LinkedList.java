@@ -17,6 +17,7 @@ public class LinkedList {
     /**
      * Print a Link List
      */
+
     public static void printList () {
         Node n = head;
         while (n != null)
