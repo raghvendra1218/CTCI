@@ -3,6 +3,7 @@ package com.raghvendra.ctci;
 import com.raghvendra.ctci.ArraysAndStrings.OneAway;
 import com.raghvendra.ctci.ArraysAndStrings.PalindromePermutation;
 import com.raghvendra.ctci.ArraysAndStrings.StringCompression;
+import com.raghvendra.ctci.LinkedList.DeleteMiddleNode;
 import com.raghvendra.ctci.LinkedList.LinkedList;
 import com.raghvendra.ctci.LinkedList.RemoveDups;
 import com.raghvendra.ctci.LinkedList.ReturnKthToLast;
@@ -71,10 +72,14 @@ public class Main {
 //        list.printList();
 
         /** Return Kth to Last */
-        ReturnKthToLast rk = new ReturnKthToLast();
-        System.out.println("Output: "+ rk.returnKth(LinkedList.head, 5));
+//        ReturnKthToLast rk = new ReturnKthToLast();
+//        System.out.println("Output: "+ rk.returnKth(LinkedList.head, 5));
 
         /** Delete Middle Node */
+        DeleteMiddleNode dmn = new DeleteMiddleNode();
+        dmn.deleteNode(LinkedList.head.next.next.next);
+        System.out.print("Output: ");
+        list.printList();
 
     }
 
