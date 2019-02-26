@@ -1,16 +1,22 @@
 package com.raghvendra.ctci.LinkedList;
 
+import java.util.HashSet;
+
 public class RemoveDups {
-    private class Node {
-        int val;
-        Node next = null;
-        Node(int x){
-            val = x;
-            next = null;
+
+    public void deleteDuplicates(LinkedList.Node head){
+        HashSet<Integer> set = new HashSet<>();
+        LinkedList.Node current = head;
+        LinkedList.Node previous = head;
+        while(current != null){
+            if(!set.contains(current.data)){
+                set.add(current.data);
+                previous = current;
+                current = current.next;
+            } else {
+                previous.next = current.next;
+                current = current.next;
+            }
         }
-    }
-
-    public void deleteDuplicates(Node head){
-
     }
 }

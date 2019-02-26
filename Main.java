@@ -3,6 +3,9 @@ package com.raghvendra.ctci;
 import com.raghvendra.ctci.ArraysAndStrings.OneAway;
 import com.raghvendra.ctci.ArraysAndStrings.PalindromePermutation;
 import com.raghvendra.ctci.ArraysAndStrings.StringCompression;
+import com.raghvendra.ctci.LinkedList.LinkedList;
+import com.raghvendra.ctci.LinkedList.RemoveDups;
+import com.raghvendra.ctci.LinkedList.ReturnKthToLast;
 
 public class Main {
 
@@ -28,8 +31,51 @@ public class Main {
 //        OneAway oa = new OneAway();
 //        System.out.println("Output: "+oa.checkOneAway(str1,str2));
         /** String Compression */
-        String str = "";
-        StringCompression sc = new StringCompression();
-        sc.compress(str);
+//        String str = "";
+//        StringCompression sc = new StringCompression();
+//        sc.compress(str);
+
+
+        /**
+         * Linked List
+         */
+
+
+        /**
+         * Create a Link List
+         */
+        LinkedList list = new LinkedList();
+        list.head = new LinkedList.Node(1);
+        LinkedList.Node second = new LinkedList.Node(2);
+        LinkedList.Node third = new LinkedList.Node(3);
+        LinkedList.Node fourth = new LinkedList.Node(4);
+        LinkedList.Node fifth = new LinkedList.Node(2);
+        LinkedList.Node sixth = new LinkedList.Node(2);
+        LinkedList.Node seventh = new LinkedList.Node(3);
+        LinkedList.Node eight = new LinkedList.Node(4);
+        list.head.next = second;
+        second.next = third;
+        third.next = fourth;
+        fourth.next = fifth;
+        fifth.next = sixth;
+        sixth.next = seventh;
+        seventh.next = eight;
+        System.out.print("Input: ");
+        list.printList();
+        System.out.println();
+
+        /** Remove Duplicates */
+//        RemoveDups rd = new RemoveDups();
+//        rd.deleteDuplicates(LinkedList.head);
+//        System.out.print("Output: ");
+//        list.printList();
+
+        /** Return Kth to Last */
+        ReturnKthToLast rk = new ReturnKthToLast();
+        System.out.println("Output: "+ rk.returnKth(LinkedList.head, 5));
+
+        /** Delete Middle Node */
+
     }
+
 }
